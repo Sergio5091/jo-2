@@ -1,6 +1,13 @@
 {
   "buildCommand": "npm run build",
-  "installCommand": "npm install --no-optional",
+  "installCommand": "npm install",
   "framework": "vite",
-  "packageManager": "npm"
+  "packageManager": "npm",
+  "functions": {},
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
 }
