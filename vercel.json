@@ -1,6 +1,6 @@
 {
-  "buildCommand": "PORT=5174 BASE_PATH=/ pnpm run vercel-build",
-  "outputDirectory": "dist/public",
-  "installCommand": "corepack enable && pnpm install --frozen-lockfile",
+  "buildCommand": "npm run vercel-build",
+  "outputDirectory": "dist",
+  "installCommand": "npm install",
   "framework": "vite"
 }
